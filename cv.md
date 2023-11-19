@@ -54,3 +54,22 @@ My basic knowledge allowed me to prepare several simple websites, for example:
 ### Work for company
 
 - Capgemini Polska Sp. z o.o. (since January 3, 2023)
+
+## Education
+
+**Online courses:**
+
+- [websamuraj](https://websamuraj.pl/)
+- [edu.devstyle](https://edu.devstyle.pl)
+- [youcode](https://youcode.pl)
+
+**Games:**
+
+- [Flexbox Zombies](https://mastery.games/flexboxzombies/)
+- [Grid Garden](https://cssgridgarden.com/#pl)
+- [Flexbox Froggy](https://flexboxfroggy.com/#pl)
+
+### Languages
+
+- Polish - Native
+- English - B2
