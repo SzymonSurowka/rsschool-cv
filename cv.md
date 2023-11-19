@@ -42,3 +42,15 @@ backgroundButtonElement.addEventListener("click", () => {
     : "ciemne";
 });
 ```
+
+## Experience
+
+My basic knowledge allowed me to prepare several simple websites, for example:
+
+- [to-do-list](https://szymonsurowka.github.io/to-do-list/)
+- [Currency-Exchanger](https://szymonsurowka.github.io/Currency-Exchanger/)
+- [Homepage](https://szymonsurowka.github.io/Homepage-/)
+
+### Work for company
+
+- Capgemini Polska Sp. z o.o. (since January 3, 2023)
