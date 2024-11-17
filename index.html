@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Szymon Surówka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Curriculum Vitae - Szymon Surówka</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__item navigation__item--link" href="#contacts">Contact info</a></li>
+                <li class="navigation__item"><a class="navigation__item navigation__item--link" href="#skills">Skills</a></li>
+                <li class="navigation__item"><a class="navigation__item navigation__item--link" href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <div class="mainLeft">
+                <img class="myPhoto" src="https://i.ibb.co/nw1PJtP/Zdj-cie-ok.jpg" alt="Szymon">
+                <h2 class="subHeader" id="contacts">Contact Info</h2>
+                <ul class="list">
+                    <li class="list__item"><i class="fa-solid fa-phone"></i>+48 509 677 889</li>
+                    <li class="list__item"><i class="fa-solid fa-envelope"></i>szymon121122@gmail.com</li>
+                    <li class="list__item"><i class="fa-brands fa-linkedin"></i><a class="link" href="https://www.linkedin.com/in/szymon-sur%C3%B3wka-7622001a8/">Linkedin</a></li>
+                </ul>
+                <h2 class="subHeader" id="skills">Skills</h2>
+                <ul class="list">
+                    <li class="list__item"><i class="fa-brands fa-html5"></i>HTML5</li>
+                    <li class="list__item"><i class="fa-brands fa-css3-alt"></i>CSS</li>
+                    <li class="list__item"><i class="fa-brands fa-js"></i>JavaScript</li>
+                    <li class="list__item"><i class="fa-brands fa-square-git"></i>Git, GitHub</li>
+                </ul>
+                <h2 class="subHeader" id="languages">Languages</h2>
+                <ul>
+                    <li class="list__item">Polish - native</li>
+                    <li class="list__item">English - B2</li>
+                </ul>
+            </div>
+            <div class="mainRight">
+                <h2 class="subHeader">About me</h2>
+                <p class="paragraph">I work as a Junior Specialist in Financial and Accounting Processes. I would like
+                    to change my profession and become Junior Frontend Developer. I treat programming as my new hobby. I
+                    would like to create better and better websites, first as a freelancer and then I hope to find a job
+                    as a Frontend Developer.</p>
+                <h2 class="subHeader">Experience</h2>
+                <p class="paragraph">My basic knowledge allowed me to prepare several simple websites, for example:</p>
+                <ul>
+                    <li class="list__item"><a class="link" href="https://szymonsurowka.github.io/to-do-list/">to-do-list</a></li>
+                    <li class="list__item"><a class="link" href="https://szymonsurowka.github.io/Homepage-/">Homepage</a></li>
+                    <li class="list__item"><a class="link" href="https://szymonsurowka.github.io/Currency-Exchanger/">Currency-converter</a></li>
+                </ul>
+                <h2 class="subHeader">Code example</h2>
+                <div>
+        <pre>
+        const changePersonName = (person) =&gt; {person.name = "Szczepan";}
+        const init = () =&gt; {
+        const person = {
+        name: "Szymon",
+        surname: "Surówka",
+        };
+        changePersonName(person);
+        console.log(person.name);
+        };
+        init();
+        </pre>
+                </div>
+                <h2 class="subHeader">Courses</h2>
+                <p class="paragraph">I am currently taking part in two courses:</p>
+                <ul>
+                    <li class="list__item"><a class="link" href="https://websamuraj.pl/">websamuraj</a></li>
+                    <li class="list__item"><a class="link" href="https://youcode.pl/zostawiam-maila/">YouCode</a></li>
+                </ul>
+                <h2 class="subHeader">Education</h2>
+                <p class="paragraph">I studied Product Quality Management, Transport and Forwarding at the University of Economics in Krakow in 2014 - 2019.</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footerItem"><a class="link" href="https://github.com/SzymonSurowka">GitHub</a></div>
+            <div class="footerItem">November 2024</div>
+            <div class="footerItem">
+                <a href="https://rs.school/"><img class="logo" src="https://i.postimg.cc/XJWpYbz0/rsschool-logo.png" alt="rs.school logo"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
