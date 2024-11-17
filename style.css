@@ -22,3 +22,95 @@ html {
     color: white;
     text-align: center;
 }
+
+.subHeader {
+    padding-left: 50px;
+}
+
+.navigation {
+    width: 100%;
+    background-color: teal;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    list-style: none;
+    width: 33%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.list__item {
+    list-style: none;
+}
+
+.navigation__item--link {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation__item--link:hover {
+    color: black;
+}
+
+.main {
+    display: flex;
+}
+
+.mainLeft {
+    width: 400px;
+    background-color: rgb(225, 222, 222);
+}
+
+.myPhoto {
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 30%;
+}
+
+.mainRight {
+    width: 800px;
+    background-color: #F6F6F6;
+    padding: 20px;
+}
+
+.paragraph {
+    padding: 20px;
+}
+
+.fa-phone {
+    padding: 10px;
+}
+
+.fa-envelope {
+    padding: 10px;
+}
+
+.fa-linkedin {
+    padding: 10px;
+}
+
+.fa-html5 {
+    padding: 10px;
+}
+
+.fa-css3-alt {
+    padding: 10px;
+}
+
+.fa-js {
+    padding: 10px;
+}
+
+.fa-square-git {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
