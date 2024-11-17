@@ -114,3 +114,23 @@ html {
 .link {
     text-decoration: none;
 }
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerItem {
+    width: 33%;
+}
+
+.logo {
+    width: 100px;
+}
+
